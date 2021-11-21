@@ -1,6 +1,9 @@
 # Metatrader 4 indicators and experts used to simulate transactions
 Some custom Metatrader 4 libraries `MQL4/Include/MyMql` along with some custom Metatrader 4 projects (most important ones are `TestChangeChartGlobalVar` indicator, `SystemConsole` indicator, `SystemProcessor` expert) used to simulate transactions on history to check if some decisions are reliable.
 
+## Architecture:
+![Architecture overview](https://github.com/alexandruchirita4192/Metatrader4TransactionSimulation/raw/main/Architecture.png)
+
 ## Known issues:
 - Profit calculation has some issues and sometimes doesn't calculate profit properly. Please note that the formula used is confirmed by some broker, but the result is still unreliable (and I couldn't find a way to make it work better).
 
