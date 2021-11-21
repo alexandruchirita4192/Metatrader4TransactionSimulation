@@ -18,8 +18,8 @@ Some custom Metatrader 4 libraries `MQL4/Include/MyMql` along with some custom M
 - The [MetatraderLogWeb](https://github.com/alexandruchirita4192/MetatraderLogWeb) project built, configured (Web.config requires changes pointing to the restored `MetatraderLog` database) and added as an IIS application.
 - Metatrader 4 installed needs configuration to allow DLL calls (for the [DotNetLibrary](https://github.com/alexandruchirita4192/DotNetTestLibrary) project) and WebService calls to the IIS application url used by [MetatraderLogWeb](https://github.com/alexandruchirita4192/MetatraderLogWeb) installed web application.
 - Optional:
-  - Building the [DotNetLibrary](https://github.com/alexandruchirita4192/DotNetTestLibrary) project using Visual Studio and resulting the `DotNetLibrary.dll`
-  - Copying `DotNetLibrary.dll` to `%APPDATA%\MetaQuotes\Terminal\[TerminalId]\MQL4\Indicators` and `%APPDATA%\MetaQuotes\Terminal\[TerminalId]\MQL4\Experts` folders
+  - Build the [DotNetLibrary](https://github.com/alexandruchirita4192/DotNetTestLibrary) project using Visual Studio to get the resulting `DotNetLibrary.dll`
+  - Copy `DotNetLibrary.dll` to `%APPDATA%\MetaQuotes\Terminal\[TerminalId]\MQL4\Indicators` and `%APPDATA%\MetaQuotes\Terminal\[TerminalId]\MQL4\Experts` folders
 
 ## Build:
 - Build in Metatrader 4 Editor the following Metatrader Projects (MqProj files):
