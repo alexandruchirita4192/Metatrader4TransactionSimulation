@@ -1,4 +1,4 @@
-# Metatrader4ProjectsAndIncludes
+# Metatrader 4 indicators (`TestChangeChartGlobalVar`, `SystemConsole`) and experts (`SystemProcessor`) used to simulate transactions on history to check if some decisions are reliable
 Some custom Metatrader 4 libraries along with some custom Metatrader 4 projects (the projects are still a work in progress, not finished yet)
 
 ## Known issues:
